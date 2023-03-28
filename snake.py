@@ -64,7 +64,7 @@ while not game_over:
 
     clock.tick(snake_speed)
 
-message("You lost", red)
+message("You lost!!", red)
 pygame.display.update()
 time.sleep(2)
 
